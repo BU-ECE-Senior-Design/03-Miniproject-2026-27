@@ -6,7 +6,7 @@ timing, sense digital input, and move a mechanical actuator. The
 components are assembled on a breadboard. If there are MEs on the
 team, a custom enclosure is required.
 
-See the assignment description for detail and prompts.
+See the assignment description for details and prompts.
 
 ---
 
@@ -71,7 +71,7 @@ Any discipline can do any role here.
 
 ### Computer oriented
 - Design the software based on the required functionality
-= Develop MicroPython code and firmware 
+- Develop MicroPython code and firmware 
 - Flash and test the firmware on the target micro
 - Document the APIs for the system
 
