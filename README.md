@@ -1,12 +1,12 @@
 # 03-Miniproject-2026-27
 
 A multi-disciplinary mini-project for a small team of EEs, CEs, and
-MEs. The project programs a micro (Seeed XIAO ESP32-S3) using
-MicroPython to drive a multicolor LED and a stepper motor, with two
-buttons as input, and assembled on a breadboard. If MEs are on the
+MEs. The project programs a micro using MicroPython to maintain
+timing, sense digital input, and move a mechanical actuator. The
+components are assembled on a breadboard. If there are MEs on the
 team, a custom enclosure is required.
 
-See the full assignment description for the specific miniproject assignment. 
+See the assignment description for detail and prompts.
 
 ---
 
@@ -17,6 +17,7 @@ See the full assignment description for the specific miniproject assignment.
 | Mechanical Engineering | |
 | Electrical Engineering | |
 | Computer Engineering | |
+| Biomedical Engineering | |
 
 ---
 
@@ -38,10 +39,11 @@ See the full assignment description for the specific miniproject assignment.
 | Component | Notes |
 |-----------|-------|
 | Thing 1 | Thing 1 notes  |
+| Thing 2 | Thing 2 notes  |
 
 ---
 
-## Getting Started
+## Getting Started with the micro
 
 ### Prerequisites
 - Visit [Thonny.org](https://thonny.org) and install Thonny for your computer’s operating system
@@ -49,24 +51,25 @@ See the full assignment description for the specific miniproject assignment.
 - Open Thonny, go to tools > options > interpreter, and select MicroPython (ESP32). Click on install or update firmware, select your ESP32’s COM port, browse to your .bin file and click install.
 - There are additional details here if you are having issues: https://wiki.seeedstudio.com/xiao_esp32s3_with_micropython/
 - Find and open the test program (blink-seeed.py) program inside Thonny.  Run the test program to blink the on-board LED
-
+- As of 9/1/26
 
 
 ---
 
-## Team Responsibilities
+## Team Responsibilities 
+Any discipline can do any role here.
 
-### MEs
+### Mechanical oriented
 - Design the enclosure 
 - Fabricate the enclosure (3-D print or laser-cut)
 - Document the assembly process 
 
-### EEs/CEs
+### Electrical oriented
 - Produce the breadboard schematic
 - Summarize the bill of materials
 - Wire the circuit on the breadboard, verfify that the componets are assembled correctly, validate the voltage levels
 
-### CEs/EEs
+### Computer oriented
 - Design the software based on the required functionality
 = Develop MicroPython code and firmware 
 - Flash and test the firmware on the target micro
@@ -83,7 +86,9 @@ See the full assignment description for the specific miniproject assignment.
 ## Contribution Workflow
 
 We want each team member to contribute work products and to host these
-including documentation in the repo with version control
+including documentation in the repo with version control (software,
+firmware, schematics, BOMs, CAD models, etc.) All can be managed in
+the repo with version control.
 
 1. Decompose the project into units to assign to each named team member 
 2. Team members do the work and produce work artifiacts
