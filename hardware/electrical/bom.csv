@@ -1,0 +1,10 @@
+Quantity,Reference,Description,Part Number / Value,Notes
+1,U1,Seeed XIAO ESP32-S3,Seeed Studio 113991114,Main microcontroller
+1,BREAD1,Full-size solderless breadboard (830 tie),Generic,Prototyping platform
+1,D1,LED 5 mm (red or any colour),Generic,Status indicator
+1,R1,Resistor 330 Ω 1/4 W,330R,Current limiter for LED
+1,M1,28BYJ-48 unipolar stepper motor,28BYJ-48,Actuation
+1,DRV1,ULN2003 stepper driver board,ULN2003AN module,Motor driver
+1,CBL1,USB-C cable,Generic,Power / programming
+1,PWR1,5 V / 1 A USB power supply,Generic,Stepper motor power
+20,W1,Jumper wires (male-to-male),Generic,Breadboard connections
