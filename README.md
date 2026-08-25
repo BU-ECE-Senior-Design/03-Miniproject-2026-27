@@ -6,6 +6,8 @@ MicroPython to drive a multicolor LED and a stepper motor, with two
 buttons as input, and assembled on a breadboard. If MEs are on the
 team, a custom enclosure is required.
 
+See the full assignment description for the specific miniproject assignment. 
+
 ---
 
 ## Team
@@ -52,10 +54,40 @@ team, a custom enclosure is required.
 
 ---
 
+## Team Responsibilities
+
+### MEs
+- Design the enclosure 
+- Fabricate the enclosure (3-D print or laser-cut)
+- Document the assembly process 
+
+### EEs/CEs
+- Produce the breadboard schematic
+- Summarize the bill of materials
+- Wire the circuit on the breadboard, verfify that the componets are assembled correctly, validate the voltage levels
+
+### CEs/EEs
+- Design the software based on the required functionality
+= Develop MicroPython code and firmware 
+- Flash and test the firmware on the target micro
+- Document the APIs for the system
+
+## Deliverables
+
+- [ ] Functional MicroPython firmware
+- [ ] Completed breadboard assembly per schematic
+- [ ] Fabricated and assembled enclosure (if MEs on team)
+- [ ] Documentation in this repository
+- [ ] Video recording demonstrating required function
+
 ## Contribution Workflow
 
-1. Decompose the project into units to assign to each team member 
-2. Create a branch from `main` named `<role>/<feature>` (e.g., `ce/stepper-driver`). Yes MEs too
+We want each team member to contribute work products and to host these
+including documentation in the repo with version control
+
+1. Decompose the project into units to assign to each named team member 
+2. Team members do the work and produce work artifiacts
+3. Create a branch from `main` named `<role>/<feature>` (e.g., `me/case`) to capture work artifacts
 3. Commit changes with descriptive messages
 4. Open a pull request and request review from at least one other team member
 5. Merge after approval
