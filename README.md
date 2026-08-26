@@ -1,12 +1,9 @@
 # 03-Miniproject-2026-27
 
-A multi-disciplinary mini-project for a small team of EEs, CEs, and
-MEs. The project programs a micro using MicroPython to maintain
-timing, sense digital input, and move a mechanical actuator. The
-components are assembled on a breadboard. If there are MEs on the
-team, a custom enclosure is required.
-
-See the assignment description for details and prompts.
+This is a template repo for a multi-disciplinary mini-project for a
+small team of EEs, CEs, MEs, and BMEs. The mini-project is described in the
+course assignment. You should tailor this repo based on your team
+composition, roles, and the tasks at hand.
 
 ---
 
@@ -43,21 +40,8 @@ See the assignment description for details and prompts.
 
 ---
 
-## Getting Started with the micro
-
-### Prerequisites
-- Visit [Thonny.org](https://thonny.org) and install Thonny for your computer’s operating system
-- Visit [MicroPython.org](https://micropython.org/download/ESP32_GENERIC_S3/) and select the appropriate bin file (currently v1.28.0)
-- Open Thonny, go to tools > options > interpreter, and select MicroPython (ESP32). Click on install or update firmware, select your ESP32’s COM port, browse to your .bin file and click install.
-- There are additional details here if you are having issues: https://wiki.seeedstudio.com/xiao_esp32s3_with_micropython/
-- Find and open the test program (blink-seeed.py) program inside Thonny.  Run the test program to blink the on-board LED
-- As of 9/1/26
-
-
----
-
 ## Team Responsibilities 
-Any discipline can do any role here.
+Any discipline can do any role here -- you make the assigments. 
 
 ### Mechanical oriented
 - Design the enclosure 
@@ -81,7 +65,7 @@ Any discipline can do any role here.
 - [ ] Completed breadboard assembly per schematic
 - [ ] Fabricated and assembled enclosure (if MEs on team)
 - [ ] Documentation in this repository
-- [ ] Video recording demonstrating required function
+- [ ] Video recording demonstrating required function (stored in google drive)
 
 ## Contribution Workflow
 
